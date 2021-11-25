@@ -19,7 +19,7 @@ To make your UI alignment fix, add a top margin to Bootrap’s container classes
 
 # Starting Our React app
     Now, our React app is ready to start our frontend application, follow the below command to start.
-    <strong>npm start <strong>, can access react APP: http://localhost:3000 
+<strong>npm start <strong>, can access react APP: http://localhost:3000 
 
 # Calling Our Spring Boot API
 To call our spring Boot API needs to set up our React application with package.json file to configure a proxy when calling the API.For that, we needs to be added URL for our API in package.json:
@@ -32,7 +32,7 @@ To build and package our React application with Spring Boot using Maven, we'll u
 
 This plugin will be responsible for packaging and copying our frontend application into our Spring Boot API build folder, used the below maven entry:
 
-
+###
    ......
 	<properties>
         <java.version>1.8</java.version>
