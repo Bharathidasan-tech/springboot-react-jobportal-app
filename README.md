@@ -23,9 +23,11 @@ To make your UI alignment fix, add a top margin to Bootrap’s container classes
 
 # Calling Our Spring Boot API
 To call our spring Boot API needs to set up our React application with package.json file to configure a proxy when calling the API.For that, we needs to be added URL for our API in package.json:
+  
     ...
     "proxy": "http://localhost:8080",
-    ...    
+    ... 
+   
 
 # Building and Packaging the Application:
 To build and package our React application with Spring Boot using Maven, we'll use the frontend-maven-plugin.
