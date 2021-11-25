@@ -34,14 +34,14 @@ To build and package our React application with Spring Boot using Maven, we'll u
 
 This plugin will be responsible for packaging and copying our frontend application into our Spring Boot API build folder, used the below maven entry:
 
-   ......
+   	...
 	<properties>
         <java.version>1.8</java.version>
        <frontend-maven-plugin.version>1.11.3</frontend-maven-plugin.version>
         <node.version>v15.10.0</node.version>
         <yarn.version>v1.22.17</yarn.version>
 	</properties>
-    .....
+    	...
        <build>
         <plugins>
             <plugin>
